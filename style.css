@@ -7,15 +7,23 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
-    background-image: linear-gradient(to right, #ff009f, #ff0087, #ff006e, #ff0056, #fe003e, #fe2730, #fc3c1f, #f84d05, #fb6a00, #fd8300, #fd9a00, #fdb000);
-}
+    margin: 0;
+    
+  }
 
+header{
+    background-image: linear-gradient(to right, #ff009f, #ff0087, #ff006e, #ff0056, #fe003e, #fe2730, #fc3c1f, #f84d05, #fb6a00, #fd8300, #fd9a00, #fdb000);
+    
+}
 
 header img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
     margin-left: 50%;
+    display: flex;
+    justify-content: center;
+    
 }
 
 header h1{
@@ -28,6 +36,7 @@ nav{
     justify-content: space-around;
     border-radius: 5px;   
     margin: 10px;
+    background-color: chartreuse;
     
 }
 a {
@@ -52,7 +61,15 @@ div{
     border-radius: 5px;
     display: flex;
     justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 h3{
     margin: 0;
 }
+
+
+
+
+
+
